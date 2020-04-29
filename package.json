@@ -1,0 +1,24 @@
+{
+  "name": "ts-learing",
+  "version": "1.0.0",
+  "description": "ts 学习",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ewenlai<450367554@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^7.0.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^4.2.0",
+    "moment": "^2.24.0",
+    "typescript": "^3.8.3"
+  }
+}
